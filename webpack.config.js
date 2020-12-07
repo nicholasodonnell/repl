@@ -68,7 +68,6 @@ module.exports = {
           module: 'ramda-repl',
         },
       ],
-      // outputPath: '.',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

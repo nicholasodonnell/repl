@@ -18,7 +18,7 @@ To build production assets:
 yarn build
 ```
 
-To start the development server with hot reloading:
+To start the development server located on http://localhost:3000:
 
 ```
 yarn dev
