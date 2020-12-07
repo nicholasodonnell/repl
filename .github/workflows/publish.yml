@@ -1,0 +1,24 @@
+name: 'Publish'
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Build
+        uses: ./.github/actions/build
+        id: build
+      -
+        name: Deploy
+        uses: ./.github/actions/deploy
+        id: deploy
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
