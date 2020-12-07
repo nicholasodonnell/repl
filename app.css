@@ -1,5 +1,5 @@
 html {
-  background : #282A35;
+  background : #2B2D36;
 }
 
 body {
@@ -14,5 +14,12 @@ noscript {
   display: block;
   height: 100vh;
   width: 100vw;
+}
+
+.CodeMirror-gutter,
+.CodeMirror-scroll,
+.repl-panel-body,
+.repl {
+  background-color: #2B2D36 !important;
 }
 
