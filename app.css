@@ -11,6 +11,7 @@ noscript {
 }
 
 #root {
+  animation: fadeIn ease-in-out 100ms;
   display: block;
   height: 100vh;
   width: 100vw;
@@ -21,10 +22,6 @@ noscript {
 .repl-panel-body,
 .repl {
   background-color: #2B2D36 !important;
-}
-
-.repl {
-  animation: fadeIn ease-in-out 100ms;
 }
 
 @keyframes fadeIn {
