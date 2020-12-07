@@ -1,7 +1,7 @@
 {
   "name": "nicholasodonnell-repl",
   "version": "1.0.0",
-  "description": "An online JavaScript editor for tinkering and testing (feat. ramda, ramda-adjunct, and @articulate/funky)",
+  "description": "An online JavaScript editor for tinkering and testing (feat. ramda, ramda-adjunct, and @articulate/funky).",
   "author": "Nicholas O'Donnell <nicholas@nicholasodonnell.com>",
   "license": "MIT",
   "scripts": {
