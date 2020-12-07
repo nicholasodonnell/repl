@@ -15,13 +15,13 @@ Install the required dependencies by running `yarn install`.
 To build production assets:
 
 ```
-yarn run build
+yarn build
 ```
 
 To start the development server with hot reloading:
 
 ```
-yarn run dev
+yarn dev
 ```
 
 ## Deploy
