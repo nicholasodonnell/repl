@@ -1,9 +1,11 @@
 name: 'Build'
 author: 'nicholas@nicholasodonnell.com'
-description: 'Build REPL'
+description: 'Build'
+
 branding:
   icon: 'code'
   color: 'blue'
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
