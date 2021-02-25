@@ -1,7 +1,7 @@
 /* window */
 
 html {
-  background : #2B2D36;
+  background : #282A36;
 }
 
 body {
@@ -22,7 +22,7 @@ noscript {
 /* docbar */
 
 .docbar {
-  background-color: #E11A6D;
+  background-color: #6CC0E5;
   margin: 0 -0.5em;
   padding: 0 1.75em;
 }
@@ -44,17 +44,18 @@ noscript {
   padding: 0.5em 0.5em 0.21em 0.5em;
   text-decoration: none;
   text-transform: uppercase;
+  transition: border-bottom-color 100ms ease-in-out, color 100ms ease-in-out;
 }
 
 .docbar__link:hover {
-  border-bottom-color: #8AE9FD;
-  color: #8AE9FD;
+  border-bottom-color: #FB4F4F;
+  color: #FB4F4F;
 }
 
 /* repl overrides */
 
 .repl-panel-header {
-  background-color: #22262B;
+  background-color: #44475A;
 }
 
 .CodeMirror-gutter,
@@ -63,6 +64,6 @@ noscript {
 .js-output,
 .repl-panel-body,
 .repl {
-  background-color: #2B2D36 !important;
+  background-color: #282A36 !important;
 }
 
