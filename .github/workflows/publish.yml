@@ -21,4 +21,4 @@ jobs:
         uses: ./.github/actions/deploy
         id: deploy
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

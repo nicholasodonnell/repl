@@ -7,12 +7,10 @@ branding:
   color: 'green'
 
 inputs:
-  access-token:
-    description: 'GitHub access token'
+  github_token:
+    description: 'GitHub token'
     required: true
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.access-token }}
